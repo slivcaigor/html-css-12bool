@@ -4,8 +4,8 @@
 :root {
   --body-clr: #99AA38;
   --bg-clr: #595758;
-  --title-clr: #A6CFD5;
-  --subtitle-clr: #ACD2ED;
+  --title-clr: #ffff;
+  --subtitle-clr: #000;
   --border-clr: #F6AE2D;
   --nested-clr: #402039;
 }
@@ -14,5 +14,39 @@
 [class*="col"] {
   background-color: var(--body-clr);
   border: solid 1px var(--border-clr);
-  min-height: 100px;
+  min-height: 50px;
+}
+
+/*************************************************
+    Headings
+ *************************************************/
+h2 {
+  color: var(--title-clr);
+}
+
+/*************************************************
+    Body
+ *************************************************/
+body {
+  background-color: var(--bg-clr);
+}
+
+/*************************************************
+    Main 
+ *************************************************/
+[class*="col-"] {
+  color: var(--subtitle-clr);
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.nested {
+  background-color: var(--nested-clr);
+  color: var(--title-clr);
+}
+
+.col-6 {
+  padding: 10px;
 }
