@@ -1,0 +1,18 @@
+/*************************************************
+    GENERAL STYLES
+ *************************************************/
+:root {
+  --body-clr: #99AA38;
+  --bg-clr: #595758;
+  --title-clr: #A6CFD5;
+  --subtitle-clr: #ACD2ED;
+  --border-clr: #F6AE2D;
+  --nested-clr: #402039;
+}
+
+/* debug */
+[class*="col"] {
+  background-color: var(--body-clr);
+  border: solid 1px var(--border-clr);
+  min-height: 100px;
+}
