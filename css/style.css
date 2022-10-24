@@ -11,10 +11,15 @@
 }
 
 /* debug */
-[class*="col"] {
+[class*="col-"] {
   background-color: var(--body-clr);
   border: solid 1px var(--border-clr);
   min-height: 50px;
+}
+
+[class*="col-offset-"] {
+  background-color: var(--body-clr);
+  width: 100%;
 }
 
 /*************************************************
@@ -49,4 +54,8 @@ body {
 
 .col-6 {
   padding: 10px;
+}
+
+.mid {
+  padding-bottom: 50px;
 }
