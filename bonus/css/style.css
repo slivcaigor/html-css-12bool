@@ -1,0 +1,14 @@
+/*************************************************
+    GENERAL STYLES
+ *************************************************/
+:root {
+  --body-clr: #fff;
+  --bg-clr: #CFD8DD;
+  --outline-clr: #000;
+  --shadow-clr: #DEDEDE;
+  --cheeks-clr: #FAE4EC;
+}
+
+body {
+  background-color: var(--bg-clr);
+}
